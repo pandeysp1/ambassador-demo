@@ -5,9 +5,9 @@ metadata:
 spec:
  containers:
  - name: nginx
-   image: quay.io/gauravkumar9130/nginx-ambassador
+   image: quay.io/pandeysp/nginx-ambassador
  - name: ambassador-container
-   image: quay.io/gauravkumar9130/haproxy
+   image: quay.io/pandeysp/haproxy
    volumeMounts:
    - name: config-volume
      mountPath: /usr/local/etc/haproxy/haproxy.cfg
