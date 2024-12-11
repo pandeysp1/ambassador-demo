@@ -5,4 +5,4 @@ metadata:
 spec:
  containers:
  - name: nginx
-   image: quay.io/gauravkumar9130/nginx-ambassador
+   image: quay.io/pandeysp/nginx-ambassador
